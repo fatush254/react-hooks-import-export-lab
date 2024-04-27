@@ -1,11 +1,13 @@
-import React from "react";
+// src/components/About.js
+import React from 'react';
 
-function About() {
+const About = () => {
   return (
-    <div id="about">
+    <div>
       <h2>About Me</h2>
-      <p>I Made This</p>
-      <img src={image} alt="I made this" />
+      <p>This is where I tell you a little about myself.</p>
     </div>
   );
-}
+};
+
+export default About;
